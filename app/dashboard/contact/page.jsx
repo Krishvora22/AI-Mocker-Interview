@@ -40,11 +40,7 @@ function Contact() {
 
   return (
 <section className="min-h-screen flex items-center justify-center px-4 py-12">
-<div className="absolute inset-0 -z-10">
-                <div className="absolute top-0 left-0 w-96 h-96 bg-blue-300 opacity-30 rounded-full mix-blend-multiply blur-2xl animate-blob animation-delay-2000"></div>
-                <div className="absolute top-0 right-0 w-96 h-96 bg-teal-300 opacity-30 rounded-full mix-blend-multiply blur-2xl animate-blob"></div>
-                <div className="absolute bottom-10 left-1/2 w-96 h-96 bg-purple-300 opacity-30 rounded-full mix-blend-multiply blur-2xl animate-blob animation-delay-4000"></div>
-            </div>
+
 <div className="w-full max-w-2xl bg-white/60 dark:bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl p-10 border border-gray-200 dark:border-white/10">
         <h2 className="text-4xl font-bold text-center mb-2 text-blue-900 dark:text-white">
           Get in Touch

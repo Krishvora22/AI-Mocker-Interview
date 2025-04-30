@@ -6,11 +6,7 @@ function Upgrade() {
     return (
         <section className="relative overflow-hidden py-16 md:py-24 bg-gradient-to-r from-cool-gray-800 to-cool-gray-900">
             {/* Animated background blobs */}
-            <div className="absolute inset-0 -z-10">
-                <div className="absolute top-0 left-0 w-96 h-96 bg-blue-300 opacity-30 rounded-full mix-blend-multiply blur-2xl animate-blob animation-delay-2000"></div>
-                <div className="absolute top-0 right-0 w-96 h-96 bg-teal-300 opacity-30 rounded-full mix-blend-multiply blur-2xl animate-blob"></div>
-                <div className="absolute bottom-10 left-1/2 w-96 h-96 bg-purple-300 opacity-30 rounded-full mix-blend-multiply blur-2xl animate-blob animation-delay-4000"></div>
-            </div>
+          
 
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-2xl mx-auto mb-12">

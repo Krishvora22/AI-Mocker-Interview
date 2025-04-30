@@ -1,13 +1,10 @@
 import React from 'react';
+import Image from 'next/image';
 
 function About() {
   return (
     <div className="min-h-screen">
-      <div className="fixed inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-blue-300 opacity-30 rounded-full mix-blend-multiply blur-2xl animate-blob animation-delay-2000"></div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-teal-300 opacity-30 rounded-full mix-blend-multiply blur-2xl animate-blob"></div>
-        <div className="absolute bottom-10 left-1/2 w-96 h-96 bg-purple-300 opacity-30 rounded-full mix-blend-multiply blur-2xl animate-blob animation-delay-4000"></div>
-      </div>
+  
       {/* Header/Hero Section */}
       <div className="py-20 px-4 md:px-8">
 
@@ -26,7 +23,7 @@ function About() {
             <h2 className="text-3xl font-bold mb-6 text-blue-800">Our Story</h2>
             <div className="space-y-4 text-gray-700">
               <p>
-                Founded in 2015, our innovative team started with a simple idea: to create technology that makes a difference.
+                Founded in 2025 innovative team started with a simple idea to create technology that makes a difference.
               </p>
               <p>
                 Today, we're proud to be at the forefront of the industry, constantly pushing boundaries and exploring new possibilities.
@@ -83,16 +80,16 @@ function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {[
             {
-              name: "Zack Reynolds",
-              title: "CTO & Co-Founder",
-              img: "public/lovable-uploads/f31e0133-3c27-4b2d-b233-8183cded3a2c.png",
-              desc: "Leading our technical initiatives with over 10 years of experience.",
+              name: "Kris Vora",
+              title: "Next.js & Gemini-Ai",
+              img: "/krish.jpg",
+              desc: "Responsible for frontend development using Next.js and integrating Gemini AI features.",
             },
             {
-              name: "Sarah Johnson",
-              title: "CEO & Co-Founder",
-              img: "public/lovable-uploads/320cb4ac-b56a-4b1c-964a-aed37ed13611.png",
-              desc: "Visionary leader with expertise in business strategy and development.",
+              name: "Miren Savani",
+              title: "React.js & Drizzle ORM", 
+              img: "/miren.jpg",
+              desc: "Handles database design and Clerk authentication integration for secure backend operations.",
             },
           ].map((member, i) => (
             <div
@@ -111,7 +108,7 @@ function About() {
                   LinkedIn
                 </button>
                 <button className="px-4 py-1 border border-blue-300 text-blue-600 rounded-full hover:bg-blue-50">
-                  Twitter
+                  GitHub
                 </button>
               </div>
             </div>
