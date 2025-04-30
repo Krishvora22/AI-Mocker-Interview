@@ -1,14 +1,10 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Header from "./dashboard/_components/Header";
-import { AtomIcon, Edit, Share2, Terminal } from "lucide-react";
-import { Database, MessageSquare, ChartBar, Star } from 'lucide-react';
 import HeroSection from "./dashboard/_components/HeroSection";
 import FeatureSecation from "./page/FeatureSection";
 import Analytics from "./page/Analytics";
 import TestimonialsSection from "./page/TestimonialsSection";
 import Upgrade from "./dashboard/upgrade/page";
-// import Footer from "./page/footer";
+import Footer from "./page/footer";
 
 
 export default function Home() {
@@ -23,7 +19,7 @@ export default function Home() {
       <Analytics/>
       <TestimonialsSection/>
       <Upgrade/>
-      {/* <Footer/> */}
+      <Footer/>
       
 
   </div>

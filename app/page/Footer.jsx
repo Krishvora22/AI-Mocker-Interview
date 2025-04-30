@@ -1,9 +1,5 @@
 "use client"
-import { UserButton } from '@clerk/nextjs'
-import Image from 'next/image'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import React, { useEffect } from 'react'
+import React from 'react'
 const Footer = () => {
     return (
         <footer className="bg-muted py-12">
