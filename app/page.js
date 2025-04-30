@@ -8,7 +8,7 @@ import FeatureSecation from "./page/FeatureSection";
 import Analytics from "./page/Analytics";
 import TestimonialsSection from "./page/TestimonialsSection";
 import Upgrade from "./dashboard/upgrade/page";
-import Footer from "./page/footer";
+// import Footer from "./page/footer";
 
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
       <Analytics/>
       <TestimonialsSection/>
       <Upgrade/>
-      <Footer/>
+      {/* <Footer/> */}
       
 
   </div>
